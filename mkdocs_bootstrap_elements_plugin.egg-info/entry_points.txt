@@ -1,2 +1,0 @@
-[mkdocs.plugins]
-bootstrap_elements = mkdocs_bootstrap_elements_plugin:BootstrapElementsPlugin
