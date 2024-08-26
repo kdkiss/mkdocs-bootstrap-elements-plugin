@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+mkdocs_bootstrap_elements_plugin/__init__.py
+mkdocs_bootstrap_elements_plugin/plugin.py
+mkdocs_bootstrap_elements_plugin.egg-info/PKG-INFO
+mkdocs_bootstrap_elements_plugin.egg-info/SOURCES.txt
+mkdocs_bootstrap_elements_plugin.egg-info/dependency_links.txt
+mkdocs_bootstrap_elements_plugin.egg-info/entry_points.txt
+mkdocs_bootstrap_elements_plugin.egg-info/not-zip-safe
+mkdocs_bootstrap_elements_plugin.egg-info/requires.txt
+mkdocs_bootstrap_elements_plugin.egg-info/top_level.txt
+mkdocs_bootstrap_elements_plugin/css/bootstrap_elements.css
+mkdocs_bootstrap_elements_plugin/js/bootstrap_elements.js

@@ -1,0 +1,2 @@
+include mkdocs_bootstrap_elements_plugin/css/*.css
+include mkdocs_bootstrap_elements_plugin/js/*.js
