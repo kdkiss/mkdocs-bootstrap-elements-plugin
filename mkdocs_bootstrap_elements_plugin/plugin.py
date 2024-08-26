@@ -1,7 +1,21 @@
 import re
 from mkdocs.plugins import BasePlugin
+import os
 
 class BootstrapElementsPlugin(BasePlugin):
+
+    def on_config(self, config):
+        # Add CSS file
+        css_file = os.path.join(os.path.dirname(__file__), 'css', 'bootstrap_elements.css')
+        css_file = css_file.replace(os.sep, '/')  # Convert to forward slashes
+        config['extra_css'] = config.get('extra_css', []) + [css_file]
+
+        # Add JS file
+        js_file = os.path.join(os.path.dirname(__file__), 'js', 'bootstrap_elements.js')
+        js_file = js_file.replace(os.sep, '/')  # Convert to forward slashes
+        config['extra_javascript'] = config.get('extra_javascript', []) + [js_file]
+
+        return config
 
     def on_post_page(self, output_content, page, config):
         # Process accordions, modals, and cards
