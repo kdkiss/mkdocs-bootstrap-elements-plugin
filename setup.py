@@ -11,6 +11,12 @@ setup(
     author_email='your.email@example.com',
     license='MIT',
     python_requires='>=3.6',
+    package_data={
+        'mkdocs_bootstrap_elements_plugin': [
+            'css/*.css',
+            'js/*.js'
+        ],
+    },
     install_requires=[
         'mkdocs>=1.0.4',
     ],
