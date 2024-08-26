@@ -56,9 +56,13 @@ Card content goes here.
 
 ## Customization
 
-You can customize the appearance of the Bootstrap elements by overriding the default CSS. Create a custom CSS file and add it to your `mkdocs.yml`:
+You can customize the appearance of the Bootstrap elements by overriding the default CSS. Create a custom CSS file or use the included ones and add it to your `mkdocs.yml`.
+The bootstrap_elements.js file will need to be copied into your mkdocs directory for the accordions to work properly.
 
 ```yaml
 extra_css:
-  - css/custom.css
+  - css/bootstrap_elements.css
+
+extra_javascript:
+  - js/bootstrap_elements.js
 ```
