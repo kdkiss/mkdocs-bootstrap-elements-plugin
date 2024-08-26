@@ -1,4 +1,3 @@
-```markdown
 # MkDocs Bootstrap Elements Plugin
 
 This plugin enhances your MkDocs site with Bootstrap elements, allowing you to easily add accordions, modals, and cards using simple Markdown syntax.
@@ -63,25 +62,3 @@ You can customize the appearance of the Bootstrap elements by overriding the def
 extra_css:
   - css/custom.css
 ```
-
-## Examples
-
-### Accordion Example
-
-:::accordion Features
-- Easy to use
-- Responsive design
-- Customizable
-:::
-
-### Modal Example
-
-:::modal Important Information
-This is a modal with important information.
-:::
-
-### Card Example
-
-:::card Quick Tip
-Here's a quick tip for using this plugin effectively.
-:::
